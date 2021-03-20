@@ -2,9 +2,9 @@
 
 namespace DeriGuess
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             GetAppInfo(); // Run GetAppInfo function to get info
 
@@ -13,17 +13,14 @@ namespace DeriGuess
             while (true)
             {
 
-                // Init correct number
-                //int correctNumber = 7;
-
                 // Create a new Random object
-                Random random = new Random();
+                var random = new Random();
 
                 // Init correct number
-                int correctNumber = random.Next(1, 10);
+                var correctNumber = random.Next(1, 10);
 
                 // Init guess var
-                int guess = 0;
+                var guess = 0;
 
                 // Ask user for number
                 Console.WriteLine("Guess a number between 1 and 10");
@@ -32,7 +29,7 @@ namespace DeriGuess
                 while (guess != correctNumber)
                 {
                     // Get users input
-                    string input = Console.ReadLine();
+                    var input = Console.ReadLine();
 
                     // Make sure its a number
                     if (!int.TryParse(input, out guess))
@@ -45,7 +42,7 @@ namespace DeriGuess
                     }
 
                     // Cast to int and put in guess
-                    guess = Int32.Parse(input);
+                    guess = int.Parse(input);
 
                     // Match guess to correct number
                     if (guess != correctNumber)
@@ -62,31 +59,28 @@ namespace DeriGuess
                 Console.WriteLine("Play Again? [Y or N]");
 
                 // Get answer
-                string answer = Console.ReadLine().ToUpper();
+                var answer = Console.ReadLine().ToUpper();
 
-                if (answer == "Y")
+                switch (answer)
                 {
-                    continue;
-                }
-                else if (answer == "N")
-                {
-                    return;
-                }
-                else
-                {
-                    return;
+                    case "Y":
+                        continue;
+                    case "N":
+                        return;
+                    default:
+                        return;
                 }
             }
 
         }
 
         // Get and display app info
-        static void GetAppInfo()
+        private static void GetAppInfo()
         {
             // Set app vars
-            string appName = "Number Guesser";
-            string appVersion = "1.0.0";
-            string appAuthor = "Brad Traversy";
+            var appName = "Number Guesser";
+            var appVersion = "1.0.0";
+            var appAuthor = "Derick Obi";
 
             // Change text color
             Console.ForegroundColor = ConsoleColor.Green;
@@ -99,19 +93,19 @@ namespace DeriGuess
         }
 
         // Ask users name and greet
-        static void GreetUser()
+        private static void GreetUser()
         {
             // Ask users name
             Console.WriteLine("What is your name?");
 
             // Get user input
-            string inputName = Console.ReadLine();
+            var inputName = Console.ReadLine();
 
             Console.WriteLine("Hello {0}, let's play a game...", inputName);
         }
 
         // Print color message
-        static void PrintColorMessage(ConsoleColor color, string message)
+        private static void PrintColorMessage(ConsoleColor color, string message)
         {
             // Change text color
             Console.ForegroundColor = color;

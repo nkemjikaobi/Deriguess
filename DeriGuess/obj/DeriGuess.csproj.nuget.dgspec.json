@@ -14,7 +14,7 @@
         "outputPath": "/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/obinkemjikaderick/.config/NuGet/NuGet.Config"
+          "/Users/obinkemjikaderick/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
