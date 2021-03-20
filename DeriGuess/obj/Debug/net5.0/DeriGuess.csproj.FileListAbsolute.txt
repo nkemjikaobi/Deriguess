@@ -1,0 +1,15 @@
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/bin/Debug/net5.0/DeriGuess.deps.json
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/bin/Debug/net5.0/DeriGuess.runtimeconfig.json
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/bin/Debug/net5.0/DeriGuess.runtimeconfig.dev.json
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/bin/Debug/net5.0/DeriGuess.dll
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/bin/Debug/net5.0/ref/DeriGuess.dll
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/bin/Debug/net5.0/DeriGuess.pdb
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.csprojAssemblyReference.cache
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.AssemblyInfoInputs.cache
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.AssemblyInfo.cs
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.csproj.CoreCompileInputs.cache
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.dll
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/ref/DeriGuess.dll
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.pdb
+/Users/obinkemjikaderick/Projects/DeriGuess/DeriGuess/obj/Debug/net5.0/DeriGuess.genruntimeconfig.cache
